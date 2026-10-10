@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "_comment": "Справочник точек. Добавляйте объекты в 'points': id (уникальный), name, type (bank|exchange), address {ru,en}, необязательно lat/lng (точнее ссылки на карты), maps_url (своя ссылка), phone, aliases (как точка называется на Rate.am), seed_rates (демо-курсы, показываются только пока Rate.am ни разу не был доступен). Файл перечитывается на лету — перезапуск не нужен.",
+  "seed_updated_at": "2026-10-07T12:00:00+04:00",
+  "points": [
+    {
+      "id": "ameriabank",
+      "name": "Ameriabank",
+      "type": "bank",
+      "address": { "ru": "Ереван, ул. Вазгена Саргсяна, 2", "en": "2 Vazgen Sargsyan St, Yerevan" },
+      "lat": null, "lng": null,
+      "phone": "+374 10 561111",
+      "aliases": ["Ameriabank", "Ameria Bank", "Америабанк"],
+      "seed_rates": { "USD": { "buy": 383, "sell": 388 }, "EUR": { "buy": 444, "sell": 454 }, "RUB": { "buy": 4.6, "sell": 4.95 } }
+    },
+    {
+      "id": "acba",
+      "name": "ACBA Bank",
+      "type": "bank",
+      "address": { "ru": "Ереван, ул. Арами, 82", "en": "82 Arami St, Yerevan" },
+      "lat": null, "lng": null,
+      "phone": "+374 10 318888",
+      "aliases": ["ACBA Bank", "ACBA-Credit Agricole Bank", "ACBA", "Акба банк"],
+      "seed_rates": { "USD": { "buy": 383.5, "sell": 388.5 }, "EUR": { "buy": 443, "sell": 455 }, "RUB": { "buy": 4.55, "sell": 4.95 } }
+    },
+    {
+      "id": "ardshinbank",
+      "name": "Ardshinbank",
+      "type": "bank",
+      "address": { "ru": "Ереван, ул. Григора Лусаворича, 13", "en": "13 Grigor Lusavorich St, Yerevan" },
+      "lat": null, "lng": null,
+      "phone": "+374 12 222222",
+      "aliases": ["Ardshinbank", "Ardshin Bank", "Ардшинбанк"],
+      "seed_rates": { "USD": { "buy": 384, "sell": 388 }, "EUR": { "buy": 445, "sell": 454 }, "RUB": { "buy": 4.6, "sell": 4.9 } }
+    },
+    {
+      "id": "inecobank",
+      "name": "Inecobank",
+      "type": "bank",
+      "address": { "ru": "Ереван, ул. Туманяна, 17", "en": "17 Tumanyan St, Yerevan" },
+      "lat": null, "lng": null,
+      "phone": "+374 10 510510",
+      "aliases": ["Inecobank", "Ineco Bank", "Инекобанк"],
+      "seed_rates": { "USD": { "buy": 383, "sell": 387.5 }, "EUR": { "buy": 444.5, "sell": 453 }, "RUB": { "buy": 4.62, "sell": 4.92 } }
+    },
+    {
+      "id": "evocabank",
+      "name": "Evocabank",
+      "type": "bank",
+      "address": { "ru": "Ереван, ул. Анрапетутян, 44/2", "en": "44/2 Hanrapetutyan St, Yerevan" },
+      "lat": null, "lng": null,
+      "phone": "+374 10 605555",
+      "aliases": ["Evocabank", "Evoca Bank", "Эвокабанк"],
+      "seed_rates": { "USD": { "buy": 384.5, "sell": 388 }, "EUR": { "buy": 446, "sell": 453.5 }, "RUB": { "buy": 4.65, "sell": 4.9 } }
+    },
+    {
+      "id": "conversebank",
+      "name": "Converse Bank",
+      "type": "bank",
+      "address": { "ru": "Ереван, ул. Вазгена Саргсяна, 26/1", "en": "26/1 Vazgen Sargsyan St, Yerevan" },
+      "lat": null, "lng": null,
+      "phone": "+374 10 511211",
+      "aliases": ["Converse Bank", "Conversebank", "Конверс Банк"],
+      "seed_rates": { "USD": { "buy": 383, "sell": 388 }, "EUR": { "buy": 443.5, "sell": 454.5 }, "RUB": { "buy": 4.58, "sell": 4.93 } }
+    },
+    {
+      "id": "araratbank",
+      "name": "AraratBank",
+      "type": "bank",
+      "address": { "ru": "Ереван, ул. Пушкина, 19", "en": "19 Pushkin St, Yerevan" },
+      "lat": null, "lng": null,
+      "phone": "+374 60 373737",
+      "aliases": ["AraratBank", "Ararat Bank", "Араратбанк"],
+      "seed_rates": { "USD": { "buy": 383.5, "sell": 387.5 }, "EUR": { "buy": 445, "sell": 453 }, "RUB": { "buy": 4.6, "sell": 4.9 } }
+    },
+    {
+      "id": "unibank",
+      "name": "Unibank",
+      "type": "bank",
+      "address": { "ru": "Ереван, ул. Чаренца, 12", "en": "12 Charents St, Yerevan" },
+      "lat": null, "lng": null,
+      "phone": "+374 10 595555",
+      "aliases": ["Unibank", "Uni Bank", "Юнибанк"],
+      "seed_rates": { "USD": { "buy": 382.5, "sell": 388.5 }, "EUR": { "buy": 443, "sell": 455 }, "RUB": { "buy": 4.55, "sell": 4.97 } }
+    },
+    {
+      "id": "idbank",
+      "name": "IDBank",
+      "type": "bank",
+      "address": { "ru": "Ереван, ул. Вазгена Саргсяна, 13", "en": "13 Vazgen Sargsyan St, Yerevan" },
+      "lat": null, "lng": null,
+      "phone": "+374 10 593333",
+      "aliases": ["IDBank", "ID Bank", "АйДиБанк"],
+      "seed_rates": { "USD": { "buy": 384, "sell": 387.8 }, "EUR": { "buy": 445.5, "sell": 452.5 }, "RUB": { "buy": 4.63, "sell": 4.88 } }
+    },
+    {
+      "id": "aeb",
+      "name": "Armeconombank",
+      "type": "bank",
+      "address": { "ru": "Ереван, ул. Амиряна, 23/1", "en": "23/1 Amiryan St, Yerevan" },
+      "lat": null, "lng": null,
+      "phone": "+374 10 510910",
+      "aliases": ["Armeconombank", "AEB", "Армэкономбанк"],
+      "seed_rates": { "USD": { "buy": 383, "sell": 388 }, "EUR": { "buy": 444, "sell": 454 }, "RUB": { "buy": 4.6, "sell": 4.95 } }
+    },
+    {
+      "id": "vtb-am",
+      "name": "VTB Bank (Armenia)",
+      "type": "bank",
+      "address": { "ru": "Ереван, ул. Налбандяна, 46", "en": "46 Nalbandyan St, Yerevan" },
+      "lat": null, "lng": null,
+      "phone": "+374 10 739700",
+      "aliases": ["VTB Bank (Armenia)", "VTB Armenia", "VTB-Armenia Bank", "ВТБ (Армения)"],
+      "seed_rates": { "USD": { "buy": 382, "sell": 389 }, "EUR": { "buy": 442, "sell": 456 }, "RUB": { "buy": 4.66, "sell": 4.86 } }
+    },
+    {
+      "id": "armswissbank",
+      "name": "Armswissbank",
+      "type": "bank",
+      "address": { "ru": "Ереван, ул. Вазгена Саргсяна, 10", "en": "10 Vazgen Sargsyan St, Yerevan" },
+      "lat": null, "lng": null,
+      "phone": "+374 10 529593",
+      "aliases": ["Armswissbank", "Armswiss Bank", "Армсвиссбанк"],
+      "seed_rates": { "USD": { "buy": 384.2, "sell": 387.6 }, "EUR": { "buy": 446, "sell": 452 }, "RUB": { "buy": 4.6, "sell": 4.9 } }
+    }
+  ]
+}

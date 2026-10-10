@@ -1,0 +1,6 @@
+# HTTPS-прокси для продакшена: Caddy сам получает и продлевает сертификат Let's Encrypt.
+# Запускается только с профилем prod: docker compose --profile prod up -d --build
+{$DOMAIN} {
+	encode gzip
+	reverse_proxy frontend:80
+}
